@@ -1,0 +1,10 @@
+prod:
+ smtpHost: 'testaccount.quickfuse.com'
+ port: 808
+ username: 'Test'
+ password: 'Test'
+ from: 'testaccount@gmail.com'
+ to: 'testaccount2@gmail.com'
+ subject: 'Test Email'
+ cc: 'Admin'
+ message: 'Test Email'

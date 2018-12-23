@@ -1,0 +1,23 @@
+{
+  "name": "quickfuse",
+  "version": "1.0.0",
+  "description": "quickFuse UI test",
+  "main": "index.js",
+  "scripts": {
+    "prequickfuse": "rm -rf screenshots test-results",
+    "quickfuse": "wdio config/index.js"
+  },
+  "author": "Suresh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chromedriver": "^2.42.0",
+    "js-yaml": "^3.12.0",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-timeline-reporter": "^2.0.2",
+    "webdriverio": "^4.13.2"
+  }
+}
